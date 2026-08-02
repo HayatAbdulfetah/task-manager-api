@@ -24,22 +24,17 @@ A full-stack Task Manager application built with an Express.js backend and a van
 2. Navigate to the backend folder:
    ```bash
    cd backend
-   ```
-   Install the dependencies:
+Install the dependencies:
 
-```Bash
+Bash
 npm install
-```
-
 Create a .env file in the backend folder and add the following:
 
+Code snippet
 PORT=5000
 APP_NAME=TaskManagerAPI
-
 Start the development server:
 
-```bash
+Bash
 npm run dev
-```
-
 Open frontend/index.html in your web browser to use the application.
