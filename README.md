@@ -10,6 +10,11 @@ A full-stack Task Manager application built with an Express.js backend and a van
 - Custom Error Handling (400 and 404 status codes)
 - CORS enabled for frontend-backend communication
 
+## 🚀 Live Demo
+
+- **Frontend:** [Task Manager](https://task-manager-api-1-jpaj.onrender.com/)
+- **Backend API:** [Task Manager API](https://task-manager-api-8amx.onrender.com/api/tasks)
+
 ## API Endpoints
 
 - `GET /api/tasks` - Get all tasks
