@@ -16,6 +16,6 @@ app.use(express.json());
 app.use("/api/tasks", taskRoutes);
 
 // --- START SERVER ---
-app.listen(PORT, () => {
-  console.log(`${APP_NAME} is running on http://localhost:${PORT}`);
+app.listen(PORT, "0.0.0.0", () => {
+  console.log(`${APP_NAME} is running on port ${PORT}`);
 });
