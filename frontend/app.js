@@ -24,6 +24,7 @@ async function fetchTasks() {
       `;
 
       taskList.appendChild(li);
+      
     });
   } catch (error) {
     console.error("Error fetching tasks:", error);
